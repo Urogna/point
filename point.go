@@ -38,5 +38,5 @@ func (p1 *Point) Add(p2 *Point) {
 }
 
 func (p *Point) String() string {
-	return "(" + strconv.FormagFloat(p.x, 'e', 2, 64) + " , " + strconv.FormagFloat(p.y, 'e', 2, 64) + ")"
+	return "(" + strconv.FormatFloat(p.x, 'e', 2, 64) + " , " + strconv.FormatFloat(p.y, 'e', 2, 64) + ")"
 }
